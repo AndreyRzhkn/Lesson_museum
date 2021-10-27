@@ -102,3 +102,74 @@
     right: 175px;
     padding: 0px 0px 132px 0px ;
 }
+.tour_content{
+    padding: 0px 20px;
+}
+.tour_content_header{
+    display: flex;
+    flex-direction: column;
+}
+.tour_content_header_name{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    padding: 60px 0px 20px 0px ;
+}
+.tour_content_header_line{
+    border: 1.5px solid #710707;
+    background-color: #710707;
+}
+.tour_content_list{
+    display: flex;
+    flex-direction: column;
+}
+.tour_content_list_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tour_content_list_row_point{
+    display: flex;
+    flex-direction: column;
+}
+.tour_content_list_row_pic{
+    margin: 60px 0px 25px 0px; 
+}
+.tour_content_list_row_title{
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.tour_content_list_row_line{
+    border: 1px solid #710707;
+    width: 150px;
+    margin: 10px 0px 10px 0px ;
+    background-color: #710707;
+}
+.tour_content_list_row_observ{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.tour_content_list_row_viev{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin: 10px 0px 0px 0px ;
+}
