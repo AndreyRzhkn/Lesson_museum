@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-.container{
+.container {
     max-width: 1024px;
 }
-.header{
+.header {
     background-color: #030303;
     display: flex;
     flex-direction: row;
@@ -14,12 +14,11 @@
     padding: 0px 20px;
     height: 130px;
 }
-.header_label{
+.header_label {
     display: flex;
     flex-direction: row;
 }
-.header_label_pic{}
-.header_label_title{
+.header_label_title {
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -30,11 +29,11 @@
     color: #FFFFFF;
     padding: 0px 0px 0px 25px;
 }
-.header_menu{
+.header_menu {
     display: flex;
     flex-direction: row;
 }
-.header_menu_menu{
+.header_menu_menu {
     font-family: Roboto;
     font-style: normal;
     font-weight: 200;
@@ -44,19 +43,19 @@
     color: #FFFFFF;
     padding: 0px 15px;
 }
-.main_content{
+.main_content {
     background-color: #030303;
     padding: 0px 20px;
     display: flex;
     flex-direction: row;
 }
-.main_content_welcome{
+.main_content_welcome {
     display: flex;
     flex-direction: column;
     position: relative;
     z-index: 5;
 }
-.main_content_welcome_wel{
+.main_content_welcome_wel {
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -67,7 +66,7 @@
     color: #FFFFFF;
     padding: 50px 0px 25px 0px ;
 }
-.main_content_welcome_discr{
+.main_content_welcome_discr {
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -78,7 +77,7 @@
     padding: 0px 0px 50px 0px;
     width: 450px;
 }
-.main_content_welcome_button{
+.main_content_welcome_button {
     width: 300px;
     height: 60px;
     left: 0px;
@@ -96,20 +95,20 @@
     letter-spacing: 2px;
     color: #FFFFFF;
 }
-.main_content_picture{
+.main_content_picture {
     position: relative;
     z-index: 1;
     right: 175px;
     padding: 0px 0px 132px 0px ;
 }
-.tour_content{
+.tour_content {
     padding: 0px 20px;
 }
-.tour_content_header{
+.tour_content_header {
     display: flex;
     flex-direction: column;
 }
-.tour_content_header_name{
+.tour_content_header_name {
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -120,27 +119,27 @@
     color: #9D8665;
     padding: 60px 0px 20px 0px ;
 }
-.tour_content_header_line{
+.tour_content_header_line {
     border: 1.5px solid #710707;
     background-color: #710707;
 }
-.tour_content_list{
+.tour_content_list {
     display: flex;
     flex-direction: column;
 }
-.tour_content_list_row{
+.tour_content_list_row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.tour_content_list_row_point{
+.tour_content_list_row_point {
     display: flex;
     flex-direction: column;
 }
-.tour_content_list_row_pic{
+.tour_content_list_row_pic {
     margin: 60px 0px 25px 0px; 
 }
-.tour_content_list_row_title{
+.tour_content_list_row_title {
     font-family: Forum;
     font-style: normal;
     font-weight: normal;
@@ -150,13 +149,13 @@
     text-transform: uppercase;
     color: #000000;
 }
-.tour_content_list_row_line{
+.tour_content_list_row_line {
     border: 1px solid #710707;
     width: 150px;
     margin: 10px 0px 10px 0px ;
     background-color: #710707;
 }
-.tour_content_list_row_observ{
+.tour_content_list_row_observ {
     font-family: Roboto;
     font-style: normal;
     font-weight: 200;
@@ -164,7 +163,7 @@
     line-height: 23px;
     color: #000000;
 }
-.tour_content_list_row_viev{
+.tour_content_list_row_viev {
     font-family: Roboto;
     font-style: normal;
     font-weight: 200;
