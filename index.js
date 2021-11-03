@@ -292,3 +292,120 @@ function contacts(){
 }
 
 contacts()
+
+function footer(){
+    const footer_footer = document.createElement('div')
+    footer_footer.className = 'footer_footer'
+    container.append(footer_footer)
+
+    const footer_footer_first = document.createElement('div')
+    footer_footer_first.className = 'footer_footer_first'
+    footer_footer.append(footer_footer_first)
+
+    const footer_footer_first_label = document.createElement('div')
+    footer_footer_first_label.className = 'footer_footer_first_label'
+    footer_footer_first_label.innerHTML = '<img src="./assets/label.png" alt="">'
+    footer_footer_first.append(footer_footer_first_label)
+    const footer_footer_first_title = document.createElement('div')
+    footer_footer_first_title.className = 'footer_footer_first_title'
+    footer_footer_first_title.innerHTML = 'Louvre'
+    footer_footer_first.append(footer_footer_first_title)
+
+    const footer_footer_first_list = document.createElement('div')
+    footer_footer_first_list.className = 'footer_footer_first_list'
+    footer_footer_first.append(footer_footer_first_list)
+
+    const footer_footer_first_list_first_colomn = document.createElement('div')
+    footer_footer_first_list_first_colomn.className = 'footer_footer_first_list_first_colomn'
+    footer_footer_first_list.append(footer_footer_first_list_first_colomn)
+    const footer_footer_first_list_first_colomn_f = document.createElement('div')
+    footer_footer_first_list_first_colomn_f.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_first_colomn_f.innerHTML = 'Visiting'
+    footer_footer_first_list_first_colomn.append(footer_footer_first_list_first_colomn_f)
+    const footer_footer_first_list_first_colomn_s = document.createElement('div')
+    footer_footer_first_list_first_colomn_s.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_first_colomn_s.innerHTML = 'Explore'
+    footer_footer_first_list_first_colomn.append(footer_footer_first_list_first_colomn_s)
+    const footer_footer_first_list_first_colomn_t = document.createElement('div')
+    footer_footer_first_list_first_colomn_t.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_first_colomn_t.innerHTML = 'Video'
+    footer_footer_first_list_first_colomn.append(footer_footer_first_list_first_colomn_t)
+
+    const footer_footer_first_list_second_colomn = document.createElement('div')
+    footer_footer_first_list_second_colomn.className = 'footer_footer_first_list_first_colomn'
+    footer_footer_first_list.append(footer_footer_first_list_second_colomn)
+    const footer_footer_first_list_second_colomn_f = document.createElement('div')
+    footer_footer_first_list_second_colomn_f.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_second_colomn_f.innerHTML = 'Gallery'
+    footer_footer_first_list_second_colomn.append(footer_footer_first_list_second_colomn_f)
+    const footer_footer_first_list_second_colomn_s = document.createElement('div')
+    footer_footer_first_list_second_colomn_s.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_second_colomn_s.innerHTML = 'Tickets'
+    footer_footer_first_list_second_colomn.append(footer_footer_first_list_second_colomn_s)
+    const footer_footer_first_list_second_colomn_t = document.createElement('div')
+    footer_footer_first_list_second_colomn_t.className = 'footer_footer_first_list_first_colomn_point'
+    footer_footer_first_list_second_colomn_t.innerHTML = 'Contacts'
+    footer_footer_first_list_second_colomn.append(footer_footer_first_list_second_colomn_t)
+
+    const footer_footer_first_social = document.createElement('div')
+    footer_footer_first_social.className = 'footer_footer_first_social'
+    footer_footer_first_list.append(footer_footer_first_social)
+    const footer_footer_first_social_y = document.createElement('div')
+    footer_footer_first_social_y.className = 'footer_footer_first_social_y'
+    footer_footer_first_social.append(footer_footer_first_social_y)
+    const footer_footer_first_social_y_pic = document.createElement('div')
+    footer_footer_first_social_y_pic.className = 'footer_footer_first_social_y_pic'
+    footer_footer_first_social_y_pic.innerHTML = '<img src="./assets/youtube.png" alt="">'
+    footer_footer_first_social_y.append(footer_footer_first_social_y_pic)
+    const footer_footer_first_social_i = document.createElement('div')
+    footer_footer_first_social_i.className = 'footer_footer_first_social_y'
+    footer_footer_first_social.append(footer_footer_first_social_i)
+    const footer_footer_first_social_i_pic = document.createElement('div')
+    footer_footer_first_social_i_pic.className = 'footer_footer_first_social_y_pic'
+    footer_footer_first_social_i_pic.innerHTML = '<img src="./assets/inst.png" alt="">'
+    footer_footer_first_social_i.append(footer_footer_first_social_i_pic)
+    const footer_footer_first_social_f = document.createElement('div')
+    footer_footer_first_social_f.className = 'footer_footer_first_social_y'
+    footer_footer_first_social.append(footer_footer_first_social_f)
+    const footer_footer_first_social_f_pic = document.createElement('div')
+    footer_footer_first_social_f_pic.className = 'footer_footer_first_social_y_pic'
+    footer_footer_first_social_f_pic.innerHTML = '<img src="./assets/facebook.png" alt="">'
+    footer_footer_first_social_f.append(footer_footer_first_social_f_pic)
+    const footer_footer_first_social_t = document.createElement('div')
+    footer_footer_first_social_t.className = 'footer_footer_first_social_y'
+    footer_footer_first_social.append(footer_footer_first_social_t)
+    const footer_footer_first_social_t_pic = document.createElement('div')
+    footer_footer_first_social_t_pic.className = 'footer_footer_first_social_y_pic'
+    footer_footer_first_social_t_pic.innerHTML = '<img src="./assets/twitter.png" alt="">'
+    footer_footer_first_social_t.append(footer_footer_first_social_t_pic)
+    const footer_footer_first_social_v = document.createElement('div')
+    footer_footer_first_social_v.className = 'footer_footer_first_social_y'
+    footer_footer_first_social.append(footer_footer_first_social_v)
+    const footer_footer_first_social_v_pic = document.createElement('div')
+    footer_footer_first_social_v_pic.className = 'footer_footer_first_social_y_pic'
+    footer_footer_first_social_v_pic.innerHTML = '<img src="./assets/Vector (4).png" alt="">'
+    footer_footer_first_social_v.append(footer_footer_first_social_v_pic)
+
+    const footer_footer_second = document.createElement('div')
+    footer_footer_second.className = 'footer_footer_second'
+    footer_footer.append(footer_footer_second)
+
+    const footer_footer_third = document.createElement('div')
+    footer_footer_third.className = 'footer_footer_third'
+    footer_footer.append(footer_footer_third)
+    const footer_footer_third_year = document.createElement('div')
+    footer_footer_third_year.className = 'footer_footer_third_year'
+    footer_footer_third_year.innerHTML = '© 2021'
+    footer_footer_third.append(footer_footer_third_year)
+    const footer_footer_third_school = document.createElement('div')
+    footer_footer_third_school.className = 'footer_footer_third_year'
+    footer_footer_third_school.innerHTML = 'The Rolling Scopes School'
+    footer_footer_third.append(footer_footer_third_school)
+    const footer_footer_third_name = document.createElement('div')
+    footer_footer_third_name.className = 'footer_footer_third_year'
+    footer_footer_third_name.innerHTML = 'Username'
+    footer_footer_third.append(footer_footer_third_name)
+    return footer_footer
+}
+
+footer()
