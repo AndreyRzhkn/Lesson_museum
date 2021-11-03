@@ -27,3 +27,35 @@ function pictureExplore(){
 }
 
 pictureExplore()
+
+function videoJourney(){
+    const videoJour = document.createElement('div')
+    videoJour.className = 'video_journey'
+    container.append(videoJour)
+    const videoJour_title = document.createElement('div')
+    videoJour_title.className = 'videoJour_title'
+    videoJour_title.innerHTML ='Video journey'
+    videoJour.append(videoJour_title)
+    const videoJour_video = document.createElement('div')
+    videoJour_video.className = 'videoJour_video'
+    videoJour_video.innerHTML = '<iframe src="https://www.youtube.com/embed/zVnhPd95hN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    videoJour.append(videoJour_video)
+    const videoJour_video_list = document.createElement('div')
+    videoJour_video_list.className = 'videoJour_video_list'
+    videoJour.append(videoJour_video_list)
+    const videoJour_video_list_first = document.createElement('div')
+    videoJour_video_list_first.className = 'videoJour_video_list_first'
+    videoJour_video_list_first.innerHTML = '<iframe src="https://www.youtube.com/embed/c-CN6_x6sGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    videoJour_video_list.append(videoJour_video_list_first)
+    const videoJour_video_list_second = document.createElement('div')
+    videoJour_video_list_second.className = 'videoJour_video_list_first'
+    videoJour_video_list_second.innerHTML = '<iframe src="https://www.youtube.com/embed/FlYjF2thT2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    videoJour_video_list.append(videoJour_video_list_second)
+    const videoJour_video_list_third = document.createElement('div')
+    videoJour_video_list_third.className = 'videoJour_video_list_first'
+    videoJour_video_list_third.innerHTML = '<iframe src="https://www.youtube.com/embed/imkgbRe97eY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    videoJour_video_list.append(videoJour_video_list_third)
+    return videoJour
+}
+
+videoJourney()

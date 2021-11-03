@@ -219,3 +219,30 @@
 .pictureEx_picture {
     align-self: center;
 }
+.video_journey {
+    padding: 60px 20px 112px 20px;
+}
+.videoJour_title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    margin: 0px 0px 40px 0px ;
+}
+.videoJour_video iframe {
+    width: 984px;
+    height: 555px;
+
+}
+.videoJour_video_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.videoJour_video_list_first {
+    margin: 40px 0px 0px 0px;
+}
