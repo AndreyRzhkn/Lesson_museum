@@ -1,10 +1,6 @@
 const container = document.querySelector('.container')
 
 function pictureExplore(){
-    
-    
-}
-
     const pictureEx = document.createElement('div')
     pictureEx.className = 'pictureEx'
     container.append(pictureEx)
@@ -27,3 +23,7 @@ function pictureExplore(){
     pictureEx_picture.className = 'pictureEx_picture'
     pictureEx_picture.innerHTML = '<img src="./assets/pic_explore.png" alt="">'
     pictureEx.append(pictureEx_picture)
+    return pictureEx
+}
+
+pictureExplore()
