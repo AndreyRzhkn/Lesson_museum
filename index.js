@@ -247,3 +247,48 @@ function tickets(){
 }   
 
 tickets()
+
+function contacts(){
+    const contacts_block = document.createElement('div')
+    contacts_block.className = 'contacts_block'
+    container.append(contacts_block)
+    const contacts_block_title = document.createElement('div')
+    contacts_block_title.className = 'contacts_block_title'
+    contacts_block_title.innerHTML = 'Contacts'
+    contacts_block.append(contacts_block_title)
+
+    const contacts_block_line = document.createElement('div')
+    contacts_block_line.className = 'contacts_block_line'
+    contacts_block.append(contacts_block_line)
+
+    const contacts_block_requisites = document.createElement('div')
+    contacts_block_requisites.className = 'contacts_block_requisites'
+    contacts_block.append(contacts_block_requisites)
+    const contacts_block_requisites_list = document.createElement('div')
+    contacts_block_requisites_list.className = 'contacts_block_requisites_list'
+    contacts_block_requisites.append(contacts_block_requisites_list)
+    const contacts_block_requisites_list_name = document.createElement('div')
+    contacts_block_requisites_list_name.className = 'contacts_block_requisites_list_name'
+    contacts_block_requisites_list_name.innerHTML = 'Palais Royal<br> Musee du Louvre'
+    contacts_block_requisites_list.append(contacts_block_requisites_list_name)
+    const contacts_block_requisites_list_adress = document.createElement('div')
+    contacts_block_requisites_list_adress.className = 'contacts_block_requisites_list_adress'
+    contacts_block_requisites_list_adress.innerHTML = 'address: 75001 Paris, France'
+    contacts_block_requisites_list.append(contacts_block_requisites_list_adress)
+    const contacts_block_requisites_list_phone = document.createElement('div')
+    contacts_block_requisites_list_phone.className = 'contacts_block_requisites_list_phone'
+    contacts_block_requisites_list_phone.innerHTML = 'phone: +33(0) 1 40 20 50 50'
+    contacts_block_requisites_list.append(contacts_block_requisites_list_phone)
+    const contacts_block_requisites_list_mail = document.createElement('div')
+    contacts_block_requisites_list_mail.className = 'contacts_block_requisites_list_mail'
+    contacts_block_requisites_list_mail.innerHTML = 'mail: info@louvre.fr'
+    contacts_block_requisites_list.append(contacts_block_requisites_list_mail)
+    
+    const contacts_block_requisites_map = document.createElement('div')
+    contacts_block_requisites_map.className = 'contacts_block_requisites_map'
+    contacts_block_requisites_map.innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2624.8530649525665!2d2.3420107918608224!3d48.86101222425656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sby!4v1635940894243!5m2!1sru!2sby" width = "694" height = "454" style="border:0;" allowfullscreen="" loading="lazy"></iframe>'
+    contacts_block_requisites.append(contacts_block_requisites_map)
+    return contacts_block
+}
+
+contacts()
