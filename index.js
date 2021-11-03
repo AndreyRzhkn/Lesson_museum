@@ -123,3 +123,127 @@ function artGalery(){
 }
 
 artGalery()
+
+function tickets(){
+    const tickets_block = document.createElement('div')
+    tickets_block.className = 'tickets_block'
+    container.append(tickets_block)
+
+    const tickets_buy_block = document.createElement('div')
+    tickets_buy_block.className = 'tickets_buy_block'
+    tickets_block.append(tickets_buy_block)
+    const tickets_block_title = document.createElement('div')
+    tickets_block_title.className = 'tickets_block_title'
+    tickets_block_title.innerHTML = 'BUY TICKETS'
+    tickets_buy_block.append(tickets_block_title)
+
+    const tickets_block_line = document.createElement('div')
+    tickets_block_line.className = 'tickets_block_line'
+    tickets_buy_block.append(tickets_block_line)
+
+    const tickets_block_buy_buy = document.createElement('div')
+    tickets_block_buy_buy.className = 'tickets_block_buy_buy'
+    tickets_buy_block.append(tickets_block_buy_buy)
+    const tickets_block_buy_buy_pic = document.createElement('div')
+    tickets_block_buy_buy_pic.className = 'tickets_block_buy_buy_pic'
+    tickets_block_buy_buy_pic.innerHTML = '<img src="./assets/buy_middle.png" alt="">'
+    tickets_block_buy_buy.append(tickets_block_buy_buy_pic)
+
+    const tickets_block_buy_buy_amount = document.createElement('div')
+    tickets_block_buy_buy_amount.className = 'tickets_block_buy_buy_amount'
+    tickets_block_buy_buy.append(tickets_block_buy_buy_amount)
+
+    const tickets_block_buy_buy_amount_title = document.createElement('div')
+    tickets_block_buy_buy_amount_title.className = 'tickets_block_buy_buy_amount_title'
+    tickets_block_buy_buy_amount_title.innerHTML = 'Amount'
+    tickets_block_buy_buy_amount.append(tickets_block_buy_buy_amount_title)
+    
+    const tickets_amount_young = document.createElement('div')
+    tickets_amount_young.className = 'tickets_amount_young'
+    tickets_block_buy_buy_amount.append(tickets_amount_young)
+
+    const tickets_amount_young_title = document.createElement('div')
+    tickets_amount_young_title.className = 'tickets_amount_young_title'
+    tickets_amount_young_title.innerHTML = 'Basic 18+'
+    tickets_amount_young.append(tickets_amount_young_title)
+
+    const tickets_amount_young_count = document.createElement('div')
+    tickets_amount_young_count.className = 'tickets_amount_young_count'
+    tickets_amount_young.append(tickets_amount_young_count)
+    const tickets_amount_young_count_minus = document.createElement('div')
+    tickets_amount_young_count_minus.className = 'tickets_amount_young_count_minus'
+    tickets_amount_young_count_minus.innerHTML = '–'
+    tickets_amount_young_count.append(tickets_amount_young_count_minus)
+    tickets_amount_young_count_minus.addEventListener('click', () =>{
+        if(tickets_amount_young_count_count.innerHTML == 0){
+            return 0
+        }else{
+            return tickets_amount_young_count_count.innerHTML -= 1
+        }
+    })
+
+    const tickets_amount_young_count_count = document.createElement('div')
+    tickets_amount_young_count_count.className = 'tickets_amount_young_count_count'
+    tickets_amount_young_count_count.innerHTML = '1'
+    tickets_amount_young_count.append(tickets_amount_young_count_count)
+    const tickets_amount_young_count_plus = document.createElement('div')
+    tickets_amount_young_count_plus.className = 'tickets_amount_young_count_plus'
+    tickets_amount_young_count_plus.innerHTML = '+'
+    tickets_amount_young_count.append(tickets_amount_young_count_plus)
+    tickets_amount_young_count_plus.addEventListener('click', () => {
+        return tickets_amount_young_count_count.innerHTML++
+    })
+
+    const tickets_amount_old = document.createElement('div')
+    tickets_amount_old.className = 'tickets_amount_young'
+    tickets_block_buy_buy_amount.append(tickets_amount_old)
+    const tickets_amount_old_title = document.createElement('div')
+    tickets_amount_old_title.className = 'tickets_amount_young_title'
+    tickets_amount_old_title.innerHTML = 'Senior 65+'
+    tickets_amount_old.append(tickets_amount_old_title)
+
+    const tickets_amount_old_count = document.createElement('div')
+    tickets_amount_old_count.className = 'tickets_amount_young_count'
+    tickets_amount_old.append(tickets_amount_old_count)
+    const tickets_amount_old_count_minus = document.createElement('div')
+    tickets_amount_old_count_minus.className = 'tickets_amount_young_count_minus'
+    tickets_amount_old_count_minus.innerHTML = '–'
+    tickets_amount_old_count.append(tickets_amount_old_count_minus)
+    tickets_amount_old_count_minus.addEventListener('click', () => {
+        if(tickets_amount_old_count_count.innerHTML == 0){
+            return 0
+        }else{
+            return tickets_amount_old_count_count.innerHTML -= 1
+        }
+    })
+
+    const tickets_amount_old_count_count = document.createElement('div')
+    tickets_amount_old_count_count.className = 'tickets_amount_young_count_count'
+    tickets_amount_old_count_count.innerHTML = '1'
+    tickets_amount_old_count.append(tickets_amount_old_count_count)
+    const tickets_amount_old_count_plus = document.createElement('div')
+    tickets_amount_old_count_plus.className = 'tickets_amount_young_count_plus'
+    tickets_amount_old_count_plus.innerHTML = '+'
+    tickets_amount_old_count.append(tickets_amount_old_count_plus)
+    tickets_amount_old_count_plus.addEventListener('click', () => {
+        return tickets_amount_old_count_count.innerHTML++
+    })
+
+    const tickets_block_buy_buy_amount_total = document.createElement('div')
+    tickets_block_buy_buy_amount_total.className = 'tickets_block_buy_buy_amount_total'
+    tickets_block_buy_buy_amount_total.innerHTML = 'Total € 220'
+    tickets_block_buy_buy_amount.append(tickets_block_buy_buy_amount_total)
+
+    const tickets_block_buy_buy_amount_button = document.createElement('div')
+    tickets_block_buy_buy_amount_button.className = 'tickets_block_buy_buy_amount_button'
+    tickets_block_buy_buy_amount_button.innerHTML = 'Buy Now'
+    tickets_block_buy_buy_amount.append(tickets_block_buy_buy_amount_button)
+
+    const tickets_block_footer = document.createElement('div')
+    tickets_block_footer.className = 'tickets_block_footer'
+    tickets_block_footer.innerHTML = '<img src="./assets/buy_end.png" alt="">'
+    tickets_block.append(tickets_block_footer)
+    return tickets_block
+}   
+
+tickets()

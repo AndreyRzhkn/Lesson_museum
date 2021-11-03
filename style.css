@@ -246,3 +246,154 @@
 .videoJour_video_list_first {
     margin: 40px 0px 0px 0px;
 }
+.art_galery {
+    background: #030303;
+    padding: 60px 20px;
+}
+.artGal_title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0px 0px 110px 0px;
+}
+.artGal_photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.artGal_photo_first_row {
+    display: flex;
+    flex-direction: column;
+}
+.artGal_photo_first_photo {
+    margin: 12px 0px;
+}
+.artGal_photo_second_row {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 50px;
+}
+.artGal_photo_third_row {
+    display: flex;
+    flex-direction: column;
+}
+.tickets_buy_block {
+    padding: 0px 20px;
+}
+.tickets_block_title {
+    font-family: Forum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 75px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #9D8665;
+    margin: 60px 0px 0px 0px;
+}
+.tickets_block_line {
+    border: 1px solid #710707;
+    background-color: #710707;
+    margin: 20px 0px 60px 0px ;
+}
+.tickets_block_buy_buy {
+    margin: 0px 0px 60px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.tickets_block_buy_buy_pic {
+    margin: 0px 80px 0px 0px ;
+}
+.tickets_block_buy_buy_amount_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+.tickets_block_buy_buy_amount_total {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 1.65px;
+    color: #000000;
+}
+.tickets_block_buy_buy_amount_button {
+    border: 1px solid #000000;
+    width: 175px;
+    height: 50px;
+    background: #000000;
+    border-radius: 2px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+.tickets_amount_young {
+    margin: 30px 0px 0px 0px;
+}
+.tickets_amount_young_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0px 0px 10px 0px;
+}
+.tickets_amount_young_count {
+    border: 3px solid #000000;
+    width: 175px;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tickets_amount_young_count_minus {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.tickets_amount_young_count_count {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+.tickets_amount_young_count_plus {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+}
+.tickets_block_buy_buy_amount_total {
+    margin: 25px 0px 67px 0px;
+}
