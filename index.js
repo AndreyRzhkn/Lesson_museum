@@ -59,3 +59,67 @@ function videoJourney(){
 }
 
 videoJourney()
+
+function artGalery(){
+    const artGal = document.createElement('div')
+    artGal.className = 'art_galery'
+    container.append(artGal)
+    const artGal_title = document.createElement('div')
+    artGal_title.className = 'artGal_title'
+    artGal_title.innerHTML = 'Art Gallery'
+    artGal.append(artGal_title)
+    const artGal_photo = document.createElement('div')
+    artGal_photo.className = 'artGal_photo'
+    artGal.append(artGal_photo)
+
+    const artGal_photo_first_row = document.createElement('div')
+    artGal_photo_first_row.className = 'artGal_photo_first_row'
+    artGal_photo.append(artGal_photo_first_row)
+    const artGal_photo_first_row_first = document.createElement('div')
+    artGal_photo_first_row_first.className = 'artGal_photo_first_photo'
+    artGal_photo_first_row_first.innerHTML = '<img src="./assets/angel.png" alt="">'
+    artGal_photo_first_row.append(artGal_photo_first_row_first)
+    const artGal_photo_first_row_second = document.createElement('div')
+    artGal_photo_first_row_second.className = 'artGal_photo_first_photo'
+    artGal_photo_first_row_second.innerHTML = '<img src="./assets/deer.png" alt="">'
+    artGal_photo_first_row.append(artGal_photo_first_row_second)
+    const artGal_photo_first_row_third = document.createElement('div')
+    artGal_photo_first_row_third.className = 'artGal_photo_first_photo'
+    artGal_photo_first_row_third.innerHTML = '<img src="./assets/war.png" alt="">'
+    artGal_photo_first_row.append(artGal_photo_first_row_third)
+
+    const artGal_photo_second_row = document.createElement('div')
+    artGal_photo_second_row.className = 'artGal_photo_second_row'
+    artGal_photo.append(artGal_photo_second_row)
+    const artGal_photo_second_row_first = document.createElement('div')
+    artGal_photo_second_row_first.className = 'artGal_photo_first_photo'
+    artGal_photo_second_row_first.innerHTML = '<img src="./assets/lizok.png" alt="">'
+    artGal_photo_second_row.append(artGal_photo_second_row_first)
+    const artGal_photo_second_row_second = document.createElement('div')
+    artGal_photo_second_row_second.className = 'artGal_photo_first_photo'
+    artGal_photo_second_row_second.innerHTML = '<img src="./assets/palace.png" alt="">'
+    artGal_photo_second_row.append(artGal_photo_second_row_second)
+    const artGal_photo_second_row_third = document.createElement('div')
+    artGal_photo_second_row_third.className = 'artGal_photo_first_photo'
+    artGal_photo_second_row_third.innerHTML = '<img src="./assets/sleep.png" alt="">'
+    artGal_photo_second_row.append(artGal_photo_second_row_third)
+
+    const artGal_photo_third_row = document.createElement('div')
+    artGal_photo_third_row.className = 'artGal_photo_third_row'
+    artGal_photo.append(artGal_photo_third_row)
+    const artGal_photo_third_row_first = document.createElement('div')
+    artGal_photo_third_row_first.className = 'artGal_photo_first_photo'
+    artGal_photo_third_row_first.innerHTML = '<img src="./assets/friends.png" alt="">'
+    artGal_photo_third_row.append(artGal_photo_third_row_first)
+    const artGal_photo_third_row_second = document.createElement('div')
+    artGal_photo_third_row_second.className = 'artGal_photo_first_photo'
+    artGal_photo_third_row_second.innerHTML = '<img src="./assets/nake.png" alt="">'
+    artGal_photo_third_row.append(artGal_photo_third_row_second)
+    const artGal_photo_third_row_third = document.createElement('div')
+    artGal_photo_third_row_third.className = 'artGal_photo_first_photo'
+    artGal_photo_third_row_third.innerHTML = '<img src="./assets/angel_girl.png" alt="">'
+    artGal_photo_third_row.append(artGal_photo_third_row_third)
+    return artGal
+}
+
+artGalery()
