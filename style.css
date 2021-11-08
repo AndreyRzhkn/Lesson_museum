@@ -495,7 +495,6 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
 .footer_footer_first_list_first_colomn_point {
     font-family: Roboto;
     font-style: normal;
@@ -512,7 +511,6 @@
     flex-direction: row;
     align-self: end;
     margin: 0px 0px 20px 0px
-
 }
 .footer_footer_first_social_y {
     border: 1px solid #666666;
