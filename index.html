@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<div class="wrapper">
     <div class="container">
         <div class="header">
             <div class="header_label">
@@ -13,23 +15,36 @@
                 <div class="header_label_title">Louvre</div>
             </div>
             <div class="header_menu">
-                <div class="header_menu_menu">Visiting</div>
-                <div class="header_menu_menu">Explore</div>
-                <div class="header_menu_menu">Video</div>
-                <div class="header_menu_menu">Gallery</div>
-                <div class="header_menu_menu">Tickets</div>
-                <div class="header_menu_menu">Contacts</div>
+                <div class="header_menu_menu">
+                    <a href="#tour_content">Visiting</a> 
+                </div>
+                <div class="header_menu_menu">
+                    <a href="#pictureEx">Explore</a> 
+                </div>
+                <div class="header_menu_menu">
+                    <a href="#video_journey">Video</a>
+                </div>
+                <div class="header_menu_menu">
+                    <a href="#art_galery">Gallery</a>
+                </div>
+                <div class="header_menu_menu">
+                    <a href="#tickets_block">Tickets</a>
+                </div>
+                <div class="header_menu_menu">
+                    <a href="#contacts_block">Contacts</a>
+                </div>
             </div>
         </div>
         <div class="main_content">
             <div class="main_content_welcome">
-                <div class="main_content_welcome_wel">Welcome <br> to the louvre</div>
+                <div class="main_content_welcome_wel">Welcome</div>
+                <div class="main_content_welcome_wel_contin">to the louvre</div>
                 <div class="main_content_welcome_discr">From the castle to the museum</div>
                 <div class="main_content_welcome_button">Discover the Louvre</div>
             </div>
             <div class="main_content_picture"><img src="./assets/Liza.png" alt=""></div>
         </div>
-        <div class="tour_content">
+        <div class="tour_content" id="tour_content">
             <div class="tour_content_header">
                 <div class="tour_content_header_name">Virtual tour</div>
                 <div class="tour_content_header_line"></div>
@@ -86,6 +101,7 @@
             </div>
         </div>
     </div>
+</div>
     <script src="./index.js"></script>
 </body>
 </html>
