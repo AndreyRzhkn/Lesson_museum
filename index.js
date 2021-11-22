@@ -271,49 +271,39 @@ const footer = () => {
     footerFirstSocialBlock.append(footerFirstSocial)
     const footerFirstSocialY = onCreateElement('div', 'footer_footer_first_social_y')
     footerFirstSocial.append(footerFirstSocialY)
-
     const footerFirstSocialYPic = onCreateElement('div', 'footer_footer_first_social_y_pic')
     footerFirstSocialY.append(footerFirstSocialYPic)
     const footerFirstSocialYPicImg = onCreateElement('img')
     footerFirstSocialYPicImg.src = "./assets/youtube.png"
     footerFirstSocialYPic.append(footerFirstSocialYPicImg)
-
     const footerFirstSocialI = onCreateElement('div', 'footer_footer_first_social_y')
     footerFirstSocial.append(footerFirstSocialI)
-
     const footerFirstSocialIPic = onCreateElement('div', 'footer_footer_first_social_y_pic')
     footerFirstSocialI.append(footerFirstSocialIPic)
     const footerFirstSocialIPicImg = onCreateElement('img')
     footerFirstSocialIPicImg.src = "./assets/inst.png"
     footerFirstSocialIPic.append(footerFirstSocialIPicImg)
-
     const footerFirstSocialF = onCreateElement('div', 'footer_footer_first_social_y')
     footerFirstSocial.append(footerFirstSocialF)
-
     const footerFirstSocialFPic = onCreateElement('div', 'footer_footer_first_social_y_pic')
     footerFirstSocialF.append(footerFirstSocialFPic)
     const footerFirstSocialFPicImg = onCreateElement('img')
     footerFirstSocialFPicImg.src = "./assets/facebook.png"
     footerFirstSocialFPic.append(footerFirstSocialFPicImg)
-
     const footerFirstSocialT = onCreateElement('div', 'footer_footer_first_social_y')
     footerFirstSocial.append(footerFirstSocialT)
-    
     const footerFirstSocialTPic = onCreateElement('div', 'footer_footer_first_social_y_pic')
     footerFirstSocialT.append(footerFirstSocialTPic)
     const footerFirstSocialTPicImg = onCreateElement('img')
     footerFirstSocialTPicImg.src = "./assets/twitter.png"
     footerFirstSocialTPic.append(footerFirstSocialTPicImg)
-
     const footerFirstSocialV = onCreateElement('div', 'footer_footer_first_social_y')
     footerFirstSocial.append(footerFirstSocialV)
-
     const footerFirstSocialVPic = onCreateElement('div', 'footer_footer_first_social_y_pic')
     footerFirstSocialV.append(footerFirstSocialVPic)
     const footerFirstSocialVPicImg = onCreateElement('img')
     footerFirstSocialVPicImg.src = "./assets/Vector (4).png"
     footerFirstSocialVPic.append(footerFirstSocialVPicImg)
-
     const footerSecond = onCreateElement('div', 'footer_footer_second')
     footerMain.append(footerSecond)
     const footerThird = onCreateElement('div', 'footer_footer_third')
